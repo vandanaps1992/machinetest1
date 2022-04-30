@@ -20,7 +20,7 @@
 <body>
     <div class="survey">  
         <h2>Employee Interests Survey Form</h2>  
-        <form id="survey" method="get" action="" >    
+        <form id="survey" method="post" action="" >    
             <label for="">Enter your name:</label>    
             <input type="text" name="" id="Uname">   
             <br><br>    
@@ -32,8 +32,8 @@
             <textarea name="" id="" cols="30" rows="5"></textarea> 
             <br><br>
             <label for="">Do you exercise at home?</label>&nbsp;
-            <input type="radio" name="Yes" id="">Yes
-            <input type="radio" name="No" id="">No
+            <input type="radio" name="rdio" id="yes" value="yes">Yes
+            <input type="radio" name="rdio" id="no" value="no">No
             <br><br>
             <label for="">How do you like to read about your favourite topics?</label>
             <br><br>
@@ -50,7 +50,7 @@
                 <option value="">Horror</option>
             </select>
             <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="button" name="submit" id="submit" value="Submit Form" >       
+            <button type="submit" form="survey" value="Submit">Submit form</button>     
         </form>     
     </div>    
 </body>
