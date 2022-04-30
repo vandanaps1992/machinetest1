@@ -1,0 +1,87 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:white;
+    font-family: 'Arial';  
+}  
+.registration{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: rgba(171, 178, 227, 0.8);
+        
+          
+}  
+h2{  
+    text-align: center;  
+    color: black;  
+    padding: 20px;  
+}  
+label{  
+    color: grey;  
+    font-size: 17px;  
+}  
+#Fname{  
+    width: 200px;  
+    height: 30px;  
+    border: 1px solid grey;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Lname{  
+    width: 200px;  
+    height: 30px;  
+    border: 1px solid grey;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}
+#Uname{  
+    width: 200px;  
+    height: 30px;  
+    border: 1px solid grey;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}    
+#Pass{  
+    width: 200px;  
+    height: 30px;  
+    border: 1px solid grey;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#Email{  
+    width: 200px;  
+    height: 30px;  
+    border: 1px solid grey;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Mobile{  
+    width: 200px;  
+    height: 30px;  
+    border: 1px solid grey;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#reg{  
+    width: 200px;  
+    height: 30px;  
+    border: none;  
+    padding-left: 7px;  
+    background-color: green;  
+    color: white;
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    
+    color: blue;  
+} 
